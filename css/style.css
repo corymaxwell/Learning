@@ -1,0 +1,234 @@
+
+/*
+********************
+*  =grid overrides
+********************
+*/
+
+.grid_3 {margin-left: 60px;}
+
+/*
+********************
+*  =miscellaneous
+********************
+*/
+
+.container_24 {
+	padding-top: 10px;
+}
+
+blockquote {
+	position: absolute;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+h1, h3 {
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 24px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+.button {
+	background: #242324;
+	color: white;
+	padding: 6px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: #999;
+	color: black;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+/*
+********************
+*  =header
+********************
+*/
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	text-indent: -9999px;
+	float: left;
+	margin-bottom: 0px;
+}
+
+header h1 a {
+	background: url(../img/logo.png) no-repeat;
+	width: 174px;
+	height: 23px;
+	float: left;
+	margin: 10px;
+}
+
+/*
+********************
+*  =nav
+********************
+*/
+
+nav {
+	float: right;
+	margin-right: 5px;
+	padding-top: 10px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+/*
+********************
+*  =banner
+********************
+*/
+
+.banner {
+	background: url(../img/cook-bg.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	position: relative;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 28px;
+	width: 360px;
+	font-weight: normal;
+	position: absolute;
+	padding: 0 8px;
+	bottom: -10px;
+	left: 8px;
+	background-color: #000;
+	background-color: rgba(0,0,0, .5);
+
+}
+
+.callout {
+	background: black;
+	height: 231px;
+}
+
+/*
+********************
+*  =main
+********************
+*/
+
+.main {
+	margin-top: 20px;
+}
+
+.main blockquote p {
+	padding-left: 30px;
+}
+
+.main blockquote p:before,
+.main blockquote p:after {
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+
+.main blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	top: 70px;
+	left: 215px;
+}
+
+/*
+********************
+*  =footer
+********************
+*/
+
+.footer {
+	clear: both;
+	margin-top: 30px;
+}
+
+.grid_24 {
+	border-top: 1px solid #d1d1d1;
+	padding-top: 18px;
+}
+
+/*
+********************
+*  =work
+********************
+*/
+
+.work h2,
+.work h4 {
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.work h2 {
+	margin-bottom: 0px;
+}
+
+.work h4 {
+	color: #787878;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #1d1d1d;
+}
+
+.work img {
+	margin-bottom: 20px;
+}
+
+
+
+
